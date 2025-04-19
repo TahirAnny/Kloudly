@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import Header from "./header";
 
 const Layout = ({children} : PropsWithChildren) => {
@@ -9,7 +9,7 @@ const Layout = ({children} : PropsWithChildren) => {
                 {children}
             </main>
             <footer className="border-t backdrop-blur py-4">
-                <p className="container mx-auto px-4 text-sm text-center text-muted-foreground">© 2023 Kloudly. All rights reserved.</p>
+                <p className="container mx-auto px-4 text-sm text-center text-muted-foreground">© 2025 Kloudly. All rights reserved.</p>
             </footer>
         </div>
     );
